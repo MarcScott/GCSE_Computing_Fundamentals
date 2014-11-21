@@ -163,7 +163,7 @@ The Expendables 2, Booker
 | <c>    | <c>                 | <c>    |
 | Film   | Role                | Key    |
 |--------+---------------------+--------|
-| FM-002 | Colt                | CN-001 |
+| FM-001 | Colt                | CN-001 |
 | FM-002 | Ranger J.J. McQuade | CN-002 |
 | FM-004 | Major Scott McCoy   | CN-003 |
 | FM-003 | Booker              | CN-004 |
