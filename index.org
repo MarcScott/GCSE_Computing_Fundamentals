@@ -47,8 +47,3 @@
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: link-heading
 :END:
-
-
-
-
-
