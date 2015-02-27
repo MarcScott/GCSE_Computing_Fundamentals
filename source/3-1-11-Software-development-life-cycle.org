@@ -75,7 +75,7 @@
 :END:
 
 
-* What is the devlopment life cycle?
+* What is the development life cycle?
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
@@ -105,17 +105,17 @@
    [[file:img/what-the-customer-wanted.jpg]]
    - The Specification requirements are an essential step in the development cycle.
    - At this stage, all parties should be involved (Designers, Users and Programmers).
-   - At the end od this stage in the cycle, everyone should be aware of
+   - At the end of this stage in the cycle, everyone should be aware of
      - What functions the software will perform.
      - What the User Experience (UX) will be like.
      - What data the software will produce, access and store.
      - How the data will be processed.
-   - By the end of this phase, a specification document will be drawn up, that can be refered to throughout the rest of the development.
+   - By the end of this phase, a specification document will be drawn up, that can be referred to throughout the rest of the development.
 2. Software Design
    - The design stage is usually carried out by software architects.
    - This is often accomplished using flowcharts to detail, the flow of data through the software.
-   - At this stage, mockups of the User Interface (UI) are often created.
-3. Implementaion
+   - At this stage, mock-ups of the User Interface (UI) are often created.
+3. Implementation
    - At this stage the code is written.
    - The programmer(s) will accomplish this using the design that was provided by the architect.
 4. Testing
@@ -134,27 +134,27 @@
 :END:
 - There are many different models of Software Development.
 - One is the =Waterfall Model=.
-- Read [[https://en.wikipedia.org/wiki/Waterfall_model][this wikipedia article]] on the Waterfall Model.
+- Read [[https://en.wikipedia.org/wiki/Waterfall_model][this Wikipedia article]] on the Waterfall Model.
 ** Try It
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: try
 :END:
 - Draw a diagram of the Waterfall model of software development.
 - Compose a bulleted list of the advantages of the Waterfall Model.
-- Compose a bulleted list of the disadvanytages of the Waterfall Model.
+- Compose a bulleted list of the disadvantages of the Waterfall Model.
 ** Research It
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: research
 :END:
 - Another model is is the =Incremental Model=.
-- Read [[https://en.wikipedia.org/wiki/Incremental_build_model][this wikipedia article]] on the Incremental Model.
+- Read [[https://en.wikipedia.org/wiki/Incremental_build_model][this Wikipedia article]] on the Incremental Model.
 ** Try It
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: try
 :END:
 - Draw a diagram of the Incremental model of software development.
 - Compose a bulleted list of the advantages of the Incremental Model.
-- Compose a bulleted list of the disadvanytages of the Incremental Model.
+- Compose a bulleted list of the disadvantages of the Incremental Model.
 ** Research It
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: research
@@ -167,7 +167,7 @@
 :END:
 - Draw a diagram of the Spiral model of software development.
 - Compose a bulleted list of the advantages of the Spiral Model.
-- Compose a bulleted list of the disadvanytages of the Spiral Model.
+- Compose a bulleted list of the disadvantages of the Spiral Model.
 ** Research It
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: research
@@ -180,4 +180,4 @@
 :END:
 - Draw a diagram of the V-shaped model of software development.
 - Compose a bulleted list of the advantages of the V-shaped Model.
-- Compose a bulleted list of the disadvanytages of the V-shaped Model.
+- Compose a bulleted list of the disadvantages of the V-shaped Model.
