@@ -99,7 +99,7 @@
 - The advantages of prototyping are:
   1. Evaluating whether or not the developed software matches the specification.
   2. Help clarify the clients requirements and improve the specification.
-  3. Minimise budget and time overuns due to a mismatch between the client's and designers understanding of the specification.
+  3. Minimise budget and time overruns due to a mismatch between the client's and designers understanding of the specification.
   4. Allow the client to test features and offer improvements through feedback.
   5. Assist in producing a product that more closely matches the client's needs.
 ** Learn It
@@ -111,8 +111,8 @@
   2. The prototype may be perfect, but is unable to be scaled into a full solution.
   3. Client's may become confused between the prototype and the final solution, and think that the prototype should accurately model the final software.
   4. Developers can become attached to a prototype, having spent many hours producing it, and are reluctant to through away their work.
-  5. Prototyping can take excessively long if not conducted properley. Prototyping needs to be rapid to be effective.
-  6. Prototyping can be expensive. Developers need to be properley trained in prototyping tools and practices that they are not familiar with.
+  5. Prototyping can take excessively long if not conducted properly. Prototyping needs to be rapid to be effective.
+  6. Prototyping can be expensive. Developers need to be properly trained in prototyping tools and practices that they are not familiar with.
 ** Try It
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: try
