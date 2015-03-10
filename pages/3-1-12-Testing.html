@@ -342,7 +342,7 @@ OUTPUT Y
 <pre class="example">
 List &lt;-- [10,8,3,5,6,1,2]
 Total &lt;-- 0
-FOR i &lt;-- 0 TO LEN(List)
+FOR i &lt;-- 1 TO LEN(List)
     TOTAL &lt;-- TOTAL + List[i]
 ENDFOR
 OUTPUT TOTAL
@@ -350,7 +350,7 @@ OUTPUT TOTAL
 <pre class="example">
 num &lt;-- 78
 answer &lt;-- ''
-WHILE num &lt; 0
+WHILE num &gt; 0
     r &lt;-- num MOD 2
     num &lt;-- num / 2
     answer &lt;-- STR(r) + answer 
@@ -360,7 +360,7 @@ OUTPUT answer
 <pre class="example">
 nums = [6,2,8,1,9,2]
 n = 0
-FOR i &lt;-- 0 TO LEN(nums)
+FOR i &lt;-- 1 TO LEN(nums)
     IF nums[i] &gt; n
         n = nums[i]
     ENDIF

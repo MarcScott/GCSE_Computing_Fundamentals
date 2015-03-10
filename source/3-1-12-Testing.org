@@ -156,7 +156,7 @@ OUTPUT Y
 #+begin_src
 List <-- [10,8,3,5,6,1,2]
 Total <-- 0
-FOR i <-- 0 TO LEN(List)
+FOR i <-- 1 TO LEN(List)
     TOTAL <-- TOTAL + List[i]
 ENDFOR
 OUTPUT TOTAL
@@ -164,7 +164,7 @@ OUTPUT TOTAL
 #+begin_src
 num <-- 78
 answer <-- ''
-WHILE num < 0
+WHILE num > 0
     r <-- num MOD 2
     num <-- num / 2
     answer <-- STR(r) + answer 
@@ -174,7 +174,7 @@ OUTPUT answer
 #+begin_src
 nums = [6,2,8,1,9,2]
 n = 0
-FOR i <-- 0 TO LEN(nums)
+FOR i <-- 1 TO LEN(nums)
     IF nums[i] > n
         n = nums[i]
     ENDIF
