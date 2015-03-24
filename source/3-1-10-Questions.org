@@ -11,6 +11,16 @@
 </div>
 #+END_HTML
 
+* Past Papers
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+** OCR Past Papers filtered for AQA spec
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: try
+:END:
+- Kindly created by Nicola Mounsey and available on the CAS website [[http://community.computingatschool.org.uk/resources/2244][here]]
+- [[file:doc/papers2014.pdf][Download the PDF Here]]
 * Data Representation, exam style questions
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
