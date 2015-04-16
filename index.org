@@ -22,6 +22,10 @@
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: link-heading
 :END:
+* [[file:pages/3-1-9-Algorithms.html][3.1.9 Algorithms]]
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: link-heading
+:END:
 * [[file:pages/3.1.10-Hex.html][3.1.10 Hexadecimal]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: link-heading
