@@ -30,6 +30,10 @@
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: link-heading
 :END:
+* [[file:pages/3-1-10-RepresentingImages.html][3-1-10 Images]]
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: link-heading
+:END:
 * [[file:pages/3.1.10-Sound.html][3.1.10 Sound]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: link-heading

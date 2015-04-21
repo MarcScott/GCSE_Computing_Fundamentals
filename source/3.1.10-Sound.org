@@ -83,7 +83,7 @@
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
-- A /sound/ is literally a vibration that travels through a medium than can be heard when it reachs an ear.
+- A /sound/ is literally a vibration that travels through a medium than can be heard when it reaches an ear.
 - Normally that medium would be air.
 - The compression and rareification of air can be represented graphically as shown below.
 [[file:img/sound.jpg]]
@@ -150,7 +150,7 @@
 :HTML_CONTAINER_CLASS: learn
 :END:
 
-- Even when digitized, an audio track can have a huge file size, that makes it impractical to use.
+- Even when digitised, an audio track can have a huge file size, that makes it impractical to use.
 - For this reason we use compression, to reduce the file sizes.
 - There are two types of compression:
   - Lossless e.g. Dolby TrueHD

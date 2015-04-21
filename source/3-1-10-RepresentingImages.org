@@ -74,7 +74,6 @@
 :END:
 
 
-
 * Representing Images
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
@@ -108,63 +107,26 @@
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: try
 :END:
-- Open up Sublime Text (or another hex editor) and create a new file called myPic.hex
-- We're going to code a bitmap image by hand.
-
-** Research It
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: research
-:END:
-
-** Design It
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: design
-:END:
-
+- Download this file to your computer -[[file:img/small.bmp][ small.bmp]]
+- View it in an image viewer. You'll need to zoom in as it's a very small image.
+- Now visit this site -[[http://hexed.it/][ online hex editor]]
+- Now Open the bitmap file in the site.
+- The first few hex codes are just the header file.
+- Look for the codes =04 00 04 00=. This is identifying the image as a 4 x 4 pixel file.
+- The long sting of =FF= codes is where each pixel colour is identified.
 ** Build It
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: build
 :END:
-
-** Test It
+- Try and edit the hex to produce an alternate pattern of red, blue and green pixels.
+- Export the image and open it in your viewer.
+- What other patterns can you make?
+** Learn It
 :PROPERTIES:
-:HTML_CONTAINER_CLASS: test
+:HTML_CONTAINER_CLASS: learn
 :END:
-
-** Run It
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: run
-:END:
-
-** Document It
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: document
-:END:
-
-** Code It
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: code
-:END:
-
-** Program It
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: program
-:END:
-
-** Try It
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: try
-:END:
-
-** Badge It
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: badge
-:END:
-
-** Save It
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: save
-:END:
-
-
-
+- The bitmap image format is a simple one.
+- There is very little =metadata= in the file - that is data that isn't coding pixel colours.
+- Other image formats such as jpg, png, gif will contain far more meta data, such as dates, authors, even the type of camera that the image was taken with.
+- Bitmap images are also uncompressed. This means every pixel is individually coded.
+- In other image formats, compression means that groups of similar pixels can be encoded, which reduces the size of the image file.
