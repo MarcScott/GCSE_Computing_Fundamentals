@@ -35,7 +35,7 @@ ENDWHILE
 words <-- "I HATE PSEUDOCODE"
 newWords <-- ""
 FOR i <-- 1 TO LEN(words)
-newWord <-- words[i] + newwords
+newWords <-- words[i] + newWords
 ENDFOR
 #+end_src
 1. What is the final value of =i=?
