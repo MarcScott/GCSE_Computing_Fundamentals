@@ -144,7 +144,7 @@ ENDFUNCTION
 - We could also create a second file called /baz.py/
 #+begin_src python
 import foo
-print(bar)
+print(foo.bar)
 #+end_src
 - Because the variable =bar= has module scope, it can be accessed by any file that imports /foo.py/
 ** Learn It - Global Scope
