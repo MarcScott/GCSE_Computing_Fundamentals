@@ -52,11 +52,10 @@ ENDFOR
 #+end_src
 1. What is the initial value of =i=
 2. On which line does iteration begin?
-3. What is the final value of =i=?
-4. What data type is =newWords=?
-5. What is the final value of =i=?
-6. What is the final value of =newWords=?
-7. What function does this algorithm perform?
+3. What data type is =newWords=?
+4. What is the final value of =i=?
+5. What is the final value of =newWords=?
+6. What function does this algorithm perform?
 ** Try It
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: try

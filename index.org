@@ -14,6 +14,10 @@
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: link-heading
 :END:
+* [[file:pages/3-1-5-Scope.html][3.1.5 Scope]]
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: link-heading
+:END:
 * [[file:pages/3-1-8-3.html][3.1.8.3 The CPU]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: link-heading

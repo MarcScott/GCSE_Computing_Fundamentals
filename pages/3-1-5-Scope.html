@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<title>3.1.9 Pseudocode Algorithms</title>
+<title>3.1.5 Scope</title>
 <meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta  name="generator" content="Org-mode" />
 <style type="text/css">
@@ -137,17 +137,20 @@ for the JavaScript code in this tag.
 </head>
 <body>
 <div id="content">
-<h1 class="title">3.1.9 Pseudocode Algorithms</h1>
+<h1 class="title">3.1.5 Scope</h1>
 <div id="table-of-contents">
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#sec-1">1. Pseudocode algorithms</a>
+<li><a href="#sec-1">1. The Scope of variables, constants, functions and procedures</a>
 <ul>
-<li><a href="#sec-1-1">Try It</a></li>
-<li><a href="#sec-1-2">Try It</a></li>
-<li><a href="#sec-1-3">Try It</a></li>
-<li><a href="#sec-1-4">Try It</a></li>
+<li><a href="#sec-1-1">Learn It</a></li>
+<li><a href="#sec-1-2">Learn It - Block Scope</a></li>
+<li><a href="#sec-1-3">Learn It - Function/Procedure scope</a></li>
+<li><a href="#sec-1-4">Learn It - Module Scope</a></li>
+<li><a href="#sec-1-5">Learn It - Global Scope</a></li>
+<li><a href="#sec-1-6">Document It</a></li>
+<li><a href="#sec-1-7">Try It</a></li>
 </ul>
 </li>
 </ul>
@@ -157,142 +160,154 @@ for the JavaScript code in this tag.
 <a href="GITHUB URL HERE">Fork me on GitHub</a>
 </div>
 <div id="outline-container-sec-1" class="outline-2 activity">
-<h2 id="sec-1"><span class="section-number-2">1</span> Pseudocode algorithms</h2>
+<h2 id="sec-1"><span class="section-number-2">1</span> The Scope of variables, constants, functions and procedures</h2>
 <div class="outline-text-2" id="text-1">
 </div>
-<div id="outline-container-sec-1-1" class="outline-3 try">
-<h3 id="sec-1-1">Try It</h3>
+<div id="outline-container-sec-1-1" class="outline-3 learn">
+<h3 id="sec-1-1">Learn It</h3>
 <div class="outline-text-3" id="text-1-1">
-<pre class="example">
-x &lt;-- 10
-y &lt;-- 3
-x &lt;-- x+y
-y &lt;-- x - y
-x &lt;-- x - y
-</pre>
-<ol class="org-ol">
-<li>What is the data type of <code>x</code>?
+<ul class="org-ul">
+<li>The scope of a variable is the range of code that it applies to.
 </li>
-<li>What is the final value of <code>x</code>?
+<li>You can think of scope as applying to the visibility of a variable.
 </li>
-<li>What is the final value of <code>y</code>?
+<li>A variable is in scope if it can be <i>seen</i> by a particular line of code.
 </li>
-</ol>
-
-<pre class="example">
-i &lt;-- 1
-WHILE i &lt; 100
-i &lt;-- i * 2
-ENDWHILE
-</pre>
-<ol class="org-ol">
-<li>What is the initial value of <code>i</code>?
-</li>
-<li>On which line is a loop started?
-</li>
-<li>What is the final value of <code>i</code>?
-</li>
-<li>How many times does the loop operate?
-</li>
-</ol>
+</ul>
 </div>
 </div>
-<div id="outline-container-sec-1-2" class="outline-3 try">
-<h3 id="sec-1-2">Try It</h3>
+<div id="outline-container-sec-1-2" class="outline-3 learn">
+<h3 id="sec-1-2">Learn It - Block Scope</h3>
 <div class="outline-text-3" id="text-1-2">
+<ul class="org-ul">
+<li>A variable with <i>block scope</i> is only valid within a particular block of code such as a for loop.
+</li>
+<li>Look at the example below.
+</li>
+</ul>
 <pre class="example">
-words &lt;-- "I HATE PSEUDOCODE"
-newWords &lt;-- ""
-FOR i &lt;-- 1 TO LEN(words)
-newWords &lt;-- words[i] + newWords
+OUTPUT "Here are the even numbers up to 100"
+FOR i &lt;-- 1 TO 100
+IF i MOD 2 = 0
+OUTPUT i
+ENDIF
 ENDFOR
+OUTPUT "Finished"
 </pre>
-<ol class="org-ol">
-<li>What is the initial value of <code>i</code>
+<ul class="org-ul">
+<li>The variable <code>i</code> has scope between lines 2 and 6.
 </li>
-<li>On which line does iteration begin?
+<li>If a programmer was to try and use the variable before line 2 or after line 6, there would be a run-time error.
 </li>
-<li>What data type is <code>newWords</code>?
-</li>
-<li>What is the final value of <code>i</code>?
-</li>
-<li>What is the final value of <code>newWords</code>?
-</li>
-<li>What function does this algorithm perform?
-</li>
-</ol>
+</ul>
 </div>
 </div>
-<div id="outline-container-sec-1-3" class="outline-3 try">
-<h3 id="sec-1-3">Try It</h3>
+<div id="outline-container-sec-1-3" class="outline-3 learn">
+<h3 id="sec-1-3">Learn It - Function/Procedure scope</h3>
 <div class="outline-text-3" id="text-1-3">
+<ul class="org-ul">
+<li>A variable with <i>function scope</i> is only valid within a particular function.
+</li>
+<li>Look at the example below.
+</li>
+</ul>
 <pre class="example">
-number &lt;-- 7
-answer &lt;-- TRUE
-FOR i &lt;--2 TO (number - 1) 
-IF number % i = 0 THEN
-answer &lt;-- FALSE
-ENDIF
-ENDFOR
-</pre>
-<ol class="org-ol">
-<li>What data type is <code>answer</code>?
-</li>
-<li>What is the initial value of <code>i</code>?
-</li>
-<li>What is the final value of <code>i</code>?
-</li>
-<li>What does the <code>%</code> do?
-</li>
-<li>What is the final value of <code>answer</code>?
-</li>
-<li>If the initial value of <code>number</code> was 8, what is the final value of <code>answer</code>?
-</li>
-<li>How about 7919?
-</li>
-<li>What function does this algorithm perform?
-</li>
-</ol>
-</div>
-</div>
-<div id="outline-container-sec-1-4" class="outline-3 try">
-<h3 id="sec-1-4">Try It</h3>
-<div class="outline-text-3" id="text-1-4">
-<pre class="example">
-arr &lt;-- [14,2,9,5,1,13,25]
-N &lt;-- LEN(arr)
-swapped &lt;-- TRUE
-hold &lt;-- ""
-WHILE swapped = TRUE   
-swapped &lt;-- FALSE
-FOR i &lt;-- 2 TO N
-IF arr[i-1] &gt; arr[i] THEN
-hold &lt;-- arr[i]
-arr[i] &lt;-- arr[i-1]
-arr[i-1] &lt;-- hold
-swapped &lt;-- TRUE
-ENDIF
-ENDFOR
+FUNCTION square(n)
+RETURN n * n
+ENDFUNCTION
+
+FUNCTION sumSquares(n)
+total &lt;- 0 
+i &lt;- 0
+WHILE i &lt;= n:
+total &lt;- total + square(i)
+i &lt;- i + 1
 ENDWHILE
+RETURN total
+ENDFUNCTION
 </pre>
-<ol class="org-ol">
-<li>What is the data type of <code>arr</code>?
+<ul class="org-ul">
+<li>Here we have two functions, both using a variable called n.
 </li>
-<li>What is the value of <code>N</code>?
+<li>Because the two variables both have function scope, they are completely unrelated.
 </li>
-<li>What is the value of hold after the <code>WHILE</code> loop has been entered the first time?
+<li>There is no risk of <i>name collision</i> when using the identifier <code>n</code> in either of the two functions.
 </li>
-<li>What is the initial value of <code>i</code>
+<li>Similarly, the second function contains variable identifiers <code>i</code> and <code>total</code>. As these both have scope only within the <code>sumSquares</code> function, the identifiers can be used elsewhere in the program, with no risk of altering the expected return of the function.
 </li>
-<li>What is the final value of <code>i</code>?
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-1-4" class="outline-3 learn">
+<h3 id="sec-1-4">Learn It - Module Scope</h3>
+<div class="outline-text-3" id="text-1-4">
+<ul class="org-ul">
+<li>Variables have module scope if they can be accessed by any line in a file or once a module has been imported.
 </li>
-<li>What is the initial value of <code>hold</code>?
+<li>This is tricky to show in Pseudocode, so we'll switch to Python 3.
 </li>
-<li>What is the final value of <code>swapped</code>?
+<li>Image we have a file called <i>foo.py</i>
 </li>
-<li>What function does this algorithm perform.
+</ul>
+<div class="org-src-container">
+
+<pre class="src src-python"><span style="color: #6c71c4;">bar</span> = <span style="color: #2aa198;">'Hello'</span>
+
+<span style="color: #859900;">def</span> <span style="color: #b58900;">outputModuleVar</span>:
+    <span style="color: #859900;">print</span>(bar)
+</pre>
+</div>
+<ul class="org-ul">
+<li>The variable <code>bar</code> can be viewed (but not necessarily altered) by any part of the the file <i>foo.py</i>
 </li>
-</ol>
+<li>We could also create a second file called <i>baz.py</i>
+</li>
+</ul>
+<div class="org-src-container">
+
+<pre class="src src-python"><span style="color: #859900;">import</span> foo
+<span style="color: #859900;">print</span>(bar)
+</pre>
+</div>
+<ul class="org-ul">
+<li>Because the variable <code>bar</code> has module scope, it can be accessed by any file that imports <i>foo.py</i>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-1-5" class="outline-3 learn">
+<h3 id="sec-1-5">Learn It - Global Scope</h3>
+<div class="outline-text-3" id="text-1-5">
+<ul class="org-ul">
+<li>A variable has <i>global scope</i> if it can be accessed from anywhere in a project.
+</li>
+<li>Variables with <i>global scope</i> are usually considered bad practice in most languages, due to the increased risk of name collisions.
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-1-6" class="outline-3 document">
+<h3 id="sec-1-6">Document It</h3>
+<div class="outline-text-3" id="text-1-6">
+
+<ul class="org-ul">
+<li>In your chosen programming language, write a script that uses block, function and module scope for it's variables.
+</li>
+<li>Take a screenshot of your code, and then annotate it in a graphics editor, identifying which variables have which scope.
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-1-7" class="outline-3 try">
+<h3 id="sec-1-7">Try It</h3>
+<div class="outline-text-3" id="text-1-7">
+
+<ul class="org-ul">
+<li>In pseudocode, write two small scripts, that use block, function and module scope.
+</li>
+<li>Give the code to a peer, and ask them to annotate and identify the scope of the variables.
+</li>
+</ul>
 </div>
 </div>
 </div>
