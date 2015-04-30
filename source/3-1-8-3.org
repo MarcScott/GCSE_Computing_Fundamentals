@@ -169,7 +169,7 @@ In many modern computer systems, the task of rendering graphics is handled by th
 :END:
 Watch the video on what a GPU does.
 #+BEGIN_HTML
-<iframe width="560" height="315" src="http://www.youtube.com/embed/qyXKedcx6Iw" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qyXKedcx6Iw" frameborder="0" allowfullscreen></iframe>
 #+END_HTML
 ** Document It
 :PROPERTIES:
