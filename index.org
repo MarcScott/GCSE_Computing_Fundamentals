@@ -26,6 +26,10 @@
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: link-heading
 :END:
+* [[file:pages/3-1-8-SecondaryStorage.html][3.1.8.4 Secondary Storage]]
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: link-heading
+:END:
 * [[file:pages/3-1-9-Algorithms.html][3.1.9 Algorithms]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: link-heading
