@@ -98,7 +98,7 @@ Memory is needed to store data and instructions for the processor
 :END:
 - The main set of instructions stored on ROM is the BIOS.
 - BIOS stands for /Basic Input/Output System/.
-- The BIOS provides instructions for the processor allowing it to interact with the Hard Disk and therefore boor the Operating System.
+- The BIOS provides instructions for the processor allowing it to interact with the Hard Disk and therefore boot the Operating System.
 - Without the BIOS, the Operating System could not be booted.
 ** Research It
 :PROPERTIES:
