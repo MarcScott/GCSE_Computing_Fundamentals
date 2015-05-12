@@ -109,8 +109,7 @@ Memory is needed to store data and instructions for the processor
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: document
 :END:
-
-- Make sure your notes contain information of ROM and the BIOS.
+- Make sure your notes contain information on ROM and the BIOS.
 * Cache
 There are many types of /cache/ in computer systems, but here we are focusing on CPU cache.
 CPU cache is volatile memory.
@@ -186,7 +185,6 @@ Hard disks will be covered in greater detail in the section on Secondary Storage
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
-
 - Hard disks are a class of non-volatile memory.
 - In most computers, the HD is used to store the operating system, applications and user data.
 - Hard disks are mechanical in nature, and this is one of the reasons they are so slow.
@@ -199,8 +197,7 @@ Hard disks will be covered in greater detail in the section on Secondary Storage
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: test
 :END:
-
+- The diagram below shows the hierarchy of how a CPU accesses storage locations when operating.
 [[file:img/computer-memory-pyramid.gif]]
-- The above diagram shows the hierarchy of how a CPU accesses storage locations when operating.
 - Copy the image to your notes.
 - Write a couple of paragraphs, that would be sufficient in explaining the diagram to a layperson.
