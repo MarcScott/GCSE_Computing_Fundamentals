@@ -38,6 +38,10 @@
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: link-heading
 :END:
+* [[file:pages/3-1-9-Algorithms-Practice.html][3.1.9 Pseudocode Algorithms Practice]]
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: link-heading
+:END:
 * [[file:pages/3.1.10-Hex.html][3.1.10 Hexadecimal]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: link-heading
