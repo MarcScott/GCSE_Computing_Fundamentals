@@ -78,7 +78,7 @@
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
-** Try It
+** Try It - Easy
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: try
 :END:
@@ -88,7 +88,7 @@ Write an algorithm using pseudocode or a flowchart that will calculate the amoun
 - Multiply the distance to be travelled by 20, to find the minimum number of litres required.
 - Add 20% to the volume to handle holding patterns while waiting to land and detours.
 - Report the volume required back to the user.
-** Try It
+** Try It - Medium
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: try
 :END:
@@ -98,7 +98,7 @@ Write an algorithm using pseudocode or a flowchart that will calculate if a pers
 - Ensure that both values are above 0
 - Divide the mass by the height squared.
 - If the BMI is between 18.5 and 25, it should report that they are of a healthy weight, otherwise it should report that they are underweight (lower) or overweight higher)
-** Try It
+** Try It - Hard
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: try
 :END:
@@ -109,13 +109,13 @@ Write an algorithm using pseudocode or a flowchart that will calculate the resis
 - The second band should indicate the second digit of the resistance, with black being 0 up to white being 9.
 - The third band should indicate the number of 0s to be added to the end of the first two digits, with black being 0 up to 9 being white.
 - The resistance should be reported back to the user.
-** Try It
+** Try It - Very Hard
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: try
 :END:
 Write an algorithm using pseudocode or a flowchart that will correctly identify a hydrocarbon:
-- Ask the user how many carbons are in the hydrocarbon
-- Ask the user how many hydrogens are in the hydrocarbon
+- Ask the user how many carbons are in the hydrocarbon and only accept numbers between 1 and 8
+- Ask the user how many hydrogens are in the hydrocarbon and only accept numbers between the number of carbons x 2, the (number of carbons * 2) + 2 or the (number of carbons x 2) -2.
 - The number of carbons indicates the prefix of the hydrocarbon name, according to the following table.
 | Carbons | Prefix |
 |---------+--------|
