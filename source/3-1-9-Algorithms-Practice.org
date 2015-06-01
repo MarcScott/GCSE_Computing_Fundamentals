@@ -131,8 +131,8 @@ Write an algorithm using pseudocode or a flowchart that will correctly identify 
 | Ratio         | Suffix  |
 |---------------+---------|
 | C_{n}H_{2n+2} | ane     |
-| C_{n}H_{n}    | ene     |
-| C_{n}H_{n-2}  | yne     |
+| C_{n}H_{2n}   | ene     |
+| C_{n}H_{2n-2} | yne     |
 - So C_{3}H_{8} would be Propane, C_{3}H_{6} would be Propene and C_{3}H_{4} would be Propyne
 - The name of the hydrocarbon should be reported back to the user.
 
